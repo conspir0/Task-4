@@ -1,0 +1,45 @@
+.slider__gallery {
+    display: grid;
+    grid-area: 'images carousel';
+    grid-gap: 0 20px;
+    grid-template-columns: 1fr 3fr;
+    
+    .slider__images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .slider__carousel {
+        
+        .flickity-viewport {
+        }
+        
+        // CAROUSEL - arrows
+        .flickity-button {
+            display: none;
+        }
+    }
+}
+
+.image__box {
+    margin: 3px;
+    
+    &:nth-of-type(1) {
+        margin-top: 0; 
+    }
+    
+    .image {
+        height: 80px;
+    }
+}
+
+.carousel__cell {
+    margin-right: 0;
+    width: 100%;
+    
+    .carousel__img {
+        display: block;
+        width: 100%;
+    }
+}

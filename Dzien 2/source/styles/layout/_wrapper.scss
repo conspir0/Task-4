@@ -1,0 +1,49 @@
+// CONTENT
+.content {
+    background-color: #fafafa;
+    
+    // CONTENT - margin
+    &__wrapper {
+        margin: 0 10%;  
+    }
+    
+    // CONTENT - grid
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+            'text text'
+            'slider form';
+        grid-gap: 0 50px;
+    }
+}
+
+// CONTENT - text
+.content__list {
+    grid-area: text;
+    
+    .content__text {
+    }
+}
+
+// SLIDER - gallery
+.slider__gallery {
+    grid-area: slider;
+    
+    // SLIDER - images
+    &__images {}
+    
+    // SLIDER - carousel
+    &__carousel {
+        .flickity-viewport {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+// CONTENT - form
+.form {
+    grid-area: form;
+}
