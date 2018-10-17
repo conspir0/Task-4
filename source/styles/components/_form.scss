@@ -1,0 +1,61 @@
+.form{
+    &__header {
+    }
+    
+    &__title {
+        margin: 0;
+        font-size: 24px;
+        color: $fifth-color;
+    }
+    &__description {
+        margin: 0;
+        font-size: 12px;
+        line-height: 18px;
+        color: $sixth-color;
+    }
+
+    &__color {
+        
+        .dot {
+            display: inline-block;
+            border-radius: 50%;
+            width: 12px;
+            height: 12px;
+            
+            &--1 {
+                background-color: $second-color;
+            }
+            &--2 {
+                background-color: $third-color;
+            }
+            &--3 {
+                background-color: $fourth-color;
+            }
+        }
+
+    }  
+}
+//
+//<div class="form">
+//                
+//                <!--  FORM header  -->
+//                <div class="form__header">
+//                    <p class="form__title">SATINSTITCH PLISSE</p>
+//                    <p class="form__description">The design of this classic, understated coverlet was fashioned after an 18th-century French button Mary Ella found in an open air market. Our clients continue to purchase this pattern year over year. 100% long-staple cotton. Portugal.</p>
+//                </div>
+//                
+//                <!--  FORM color  -->
+//                <div class="form__color">
+//                    <div class="dot-1"></div>
+//                    <div class="dot-2"></div>
+//                    <div class="dot-3"></div>
+//                </div>
+//                
+//                <!--  FORM data  -->
+//                <div class="form__data"></div>
+//                
+//                <!--  FORM button  -->
+//                <button type="button">ADD TO CART</button>
+//            
+//            <!--  Right box END  -->
+//            </div>

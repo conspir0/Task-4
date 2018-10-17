@@ -22,8 +22,17 @@
 // CONTENT - text
 .content__list {
     grid-area: text;
+    line-height: 12px;
     
     .content__text {
+        font-size: 11px;
+        margin: 28px 0 30px;
+        
+        color: $first-color;
+        
+        .strong {
+            font-weight: 600;
+        }
     }
 }
 
